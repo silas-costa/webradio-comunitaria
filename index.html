@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
+    <title>Rádio Comunitária Online</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <img src="logo.png" alt="Logo Rádio Comunitária Pirajá" class="logo">
+        <nav class="nav-links">
+            <a href="#programacao">Programação</a>
+            <a href="#contato">Contato</a>
+            <a href="#sobre">Sobre</a>
+        </nav>
+    </header>
+
+    <main class="player-container">
+        <div class="custom-player">
+            <h2 style="color: var(--primary-black); margin-bottom: 1rem;">🎧Ouça Ao Vivo Agora</h2>
+            <div class="player-controls">
+                <button class="play-pause-btn" id="playPause">
+                    <span class="material-icons" id="playIcon">play_arrow</span>
+                </button>
+                
+                <div class="volume-container">
+                    <span class="material-icons" id="volumeIcon">volume_up</span>
+                    <input type="range" class="volume-slider" id="volume" 
+                           min="0" max="1" step="0.1" value="1">
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <section class="schedule" id="programacao">
+        <!-- Programação dinâmica via JS -->
+    </section>
+
+    <div class="social-links">
+        <a href="#" class="social-icon">
+            <span class="material-icons">facebook</span>
+        </a>
+        <a href="#" class="social-icon">
+            <span class="material-icons">chat</span>
+        </a>
+        <a href="#" class="social-icon">
+            <span class="material-icons">share</span>
+        </a>
+    </div>
+    <script src="script.js"></script> 
+</body>
+</html>
