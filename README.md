@@ -27,8 +27,7 @@ A rádio comunitária precisava expandir sua audiência, e como a maioria das pe
 
 1. Clone este repositório:
 
-   git clone 
-
+git clone https://github.com/silas-costa/webradio-comunitaria.git
 
 2. Abra o arquivo `index.html` no navegador.
 
